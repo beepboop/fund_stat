@@ -1,0 +1,109 @@
+\documentclass{beamer}
+\usepackage{etex}
+\usepackage[utf8]{inputenc}
+
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsthm}
+\usepackage[ukrainian,russian]{babel}
+
+\usepackage{fontenc}
+\usepackage{graphicx}
+\usepackage{wrapfig}
+\usepackage{tikz}
+
+\usepackage{ulem}
+
+\usepackage{listings}
+\usepackage{color}
+\usepackage{hyperref}
+% \usepackage[unicode,pdfusetitle, bookmarks=true, bookmarksnumbered=true,bookmarksopen=true,bookmarksopenlevel=1]{hyperref}
+% \hypersetup{backref,colorlinks=true,linkcolor=blue,citecolor=green,bookmarks=false}
+\usepackage{latexsym,url}
+%  \bra and \ket are already defined in Qcircuit
+% \usepackage{braket} 
+\usepackage{multirow}
+
+\input{Qcircuit}
+\newcommand {\Had} {H}%{\mbox{\sf{H}}}
+\newcommand {\phase} {S}%{\mbox{\sf{S}}}
+\newcommand {\R} {R_3}%{\mbox{\sf{R}}_3}
+\newcommand {\cnot} {\textit{cnot}\,}%{\mbox{\sf{cnot}}}
+\newcommand {\X} {X}%{\mbox{\sf{X}}}
+\newcommand {\Y} {Y}%{\mbox{\sf{Y}}}
+\newcommand {\Z} {Z}%{\mbox{\sf{Z}}}
+
+
+\usetheme{Warsaw}
+\defbeamertemplate*{footline}{shadow theme}
+{%
+  \leavevmode%
+  \hbox{\begin{beamercolorbox}[wd=.5\paperwidth,ht=2.5ex,dp=1.125ex,leftskip=.3cm plus1fil,rightskip=.3cm]{author in head/foot}%
+    \usebeamerfont{author in head/foot}\insertframenumber\,/\,\inserttotalframenumber\hfill\insertshortauthor
+  \end{beamercolorbox}%
+  \begin{beamercolorbox}[wd=.5\paperwidth,ht=2.5ex,dp=1.125ex,leftskip=.3cm,rightskip=.3cm plus1fil]{title in head/foot}%
+    \usebeamerfont{title in head/foot}\insertshorttitle%
+  \end{beamercolorbox}}%
+  \vskip0pt%
+}
+
+
+\author{Ширай Андрей}
+ \institute{Department of Nanotimberlogy,\\Miskatonic University}
+\title{Fundamental Limitation on Applicability of Statistical Methods to Study of Living Organisms and Other Complex Systems}
+\date{\today}
+
+\newtheorem{defin}{Определение}
+\newtheorem{theor}{Теорема}
+\newtheorem{astat}{}
+\newtheorem{stat}{Постулат}
+
+
+
+\begin{document}
+\frame{\titlepage}
+
+% \frame{
+% \frametitle{We have a plan!}
+% 
+% \begin{itemize}
+%  \item Исторический экскурс.
+%  \item Как это работает.
+%  \item Примеры физических реализаций.
+%  \item Квантовые алгоритмы Шора(факторизация) и Гровера(поиск по неупорядоченной БД).
+%  \item Как это повлияет на надежность криптосистем?
+%  \item Как квантовая информатика повлияла на другие направления теоретической 
+% информатики/математики/физики.
+%  \item Моделирование квантовых вычислений
+% \end{itemize}
+% 
+% }
+
+% % % % % % % % % % % % % % 
+
+
+% % % % % % % % % % % % % % 
+
+\frame{
+ \frametitle{Feci, quod potui, faciant meliora potentes}
+\begin{center}
+\Huge Dixi\end{center}
+}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% \frame{
+% \frametitle{}
+% 
+% \begin{figure}[ht]
+%  \includemovie[
+%  poster,
+%  text={\small P vs NP}
+% ]{0.5\linewidth}{0.5\linewidth}{pnp.mp4}
+% \end{figure}
+% }
+
+\end{document}
