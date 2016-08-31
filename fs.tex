@@ -25,14 +25,6 @@
 % \usepackage{braket} 
 \usepackage{multirow}
 
-\input{Qcircuit}
-\newcommand {\Had} {H}%{\mbox{\sf{H}}}
-\newcommand {\phase} {S}%{\mbox{\sf{S}}}
-\newcommand {\R} {R_3}%{\mbox{\sf{R}}_3}
-\newcommand {\cnot} {\textit{cnot}\,}%{\mbox{\sf{cnot}}}
-\newcommand {\X} {X}%{\mbox{\sf{X}}}
-\newcommand {\Y} {Y}%{\mbox{\sf{Y}}}
-\newcommand {\Z} {Z}%{\mbox{\sf{Z}}}
 
 
 \usetheme{Warsaw}
@@ -62,8 +54,53 @@
 
 
 \begin{document}
-\frame{\titlepage}
 
+\frame{
+\frametitle{О чем речь?}
+\includegraphics[scale=0.35]{1}
+}
+\frame{
+\frametitle{Lies, damned lies, and \textbf{statistics}}
+\includegraphics[scale=0.35]{pirates}
+}
+
+\frame{
+\frametitle{The Dreams in the Witch House}
+\begin{itemize}
+ \item Предположим у нас есть $ N \gg 1 $ ``идентичных'' систем с каким-то свойством $M$(Которое принимает большое количество возможных значений $M_x \gg 1$)
+ \item $N \gg M_x$
+ \item По результатам измерений мы получем гистограмму $P(x_i)$
+ \item В простейшем случае(если $P(x_i=a)\simeq1$) мы получим $P(x)=A e ^{-\frac{(x-a)^2}{2\sigma^2}}$, проводим оценку $\sigma$
+\end{itemize}
+
+}
+
+\frame{
+\frametitle{The Horror at Red Hook}
+\begin{itemize}
+ \item $N$, которое $ N \gg 1 $ хороше, если будет равно 50
+ \item ... и которые не идентичны.
+ \item Мы не знаем как мерять $M$
+ \item ... поэтому $M_x =2$
+ \item Система не будет определяться свойством X\footnote{Закон подлости}
+\end{itemize}
+
+}
+\frame{
+\frametitle{Ex Oblivione}
+\begin{itemize}
+ \item Почему эта проблема не затронула физику?
+\end{itemize}
+
+}
+\frame{
+\frametitle{Ex Oblivione}
+\begin{itemize}
+ \item Почему эта проблема не затронула физику?
+ \item Законы сохранения!
+\end{itemize}
+
+}
 % \frame{
 % \frametitle{We have a plan!}
 % 
